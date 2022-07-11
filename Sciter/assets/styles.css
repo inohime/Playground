@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45% auto;
+    width: 10%;
+}
+
+.newBtn {
+    background: linear-gradient(45deg,#FE8DC6, #FED1C7);
+    border-radius: 999px;
+    box-shadow: transparent;
+    box-sizing: border-box;
+    transition: box-shadow .2s ease-in-out;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.newBtn:hover {
+    box-shadow: #FE8DC6 0 0 20px -10px;
+}
